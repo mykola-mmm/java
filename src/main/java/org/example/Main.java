@@ -1,5 +1,6 @@
 package org.example;
 import org.example.*;
+import org.example.vehicle.*;
 
 public class Main {
     public static void main (String[] args) {
@@ -26,7 +27,21 @@ public class Main {
 //        Friend oleg = new Friend("Oleg");
 //        Friend oleg2 = new Friend("Oleg2");
 //        System.out.println(Friend.numberOfFriends);
+//        Car myCar = new Car();
+//        myCar.go();
+//        System.out.println(myCar.doors);
 
+//        Dog myDog = new Dog();
+//        myDog.speak();
+
+//        Hero myHero = new Hero("Batman", 42, "batman");
+//        System.out.println(myHero.toString());
+//        Hero secondHere = new Hero("Superman", 999, "god");
+//        System.out.println(secondHere.toString());
+
+//        Vehicle myVehicle = new Vehicle();
+        Car myCar = new Car();
+        Bicycle myBicycle = new Bicycle();
     }
 
     public static void func1 () {

@@ -1,15 +1,11 @@
 package org.example.vehicle;
 
-public class Car {
-    String make = "BMW";
-    String model = "X5";
-    int year = 1920;
-    String color = "white";
+public class Car extends Vehicle{
+    public int wheels = 4;
+    public int doors = 2;
 
-    public void drive() {
-        System.out.println("you drive the car");
-    }
-    public void brake() {
-        System.out.println("you brake the cae");
+    @Override
+    void go() {
+        System.out.println("the car is going");
     }
 }
